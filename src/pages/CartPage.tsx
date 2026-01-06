@@ -72,6 +72,9 @@ export default function CartPage() {
                       </span>
                       <span>No transport required</span>
                     </div>
+                    <div className="mt-2">
+                      <a href="#" className="text-sm text-primary hover:underline">Learn more about our recycling program →</a>
+                    </div>
                     <p className="font-bold mt-2">€29</p>
                   </div>
                 </div>
