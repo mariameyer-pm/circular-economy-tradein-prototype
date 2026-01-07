@@ -10,6 +10,7 @@ import OrderStatusPage from "./pages/OrderStatusPage";
 import NotFound from "./pages/NotFound";
 
 // App (Mobile) Pages
+import AppBrowsePage from "./pages/app/AppBrowsePage";
 import AppHomePage from "./pages/app/AppHomePage";
 import AppProductPage from "./pages/app/AppProductPage";
 import AppCartPage from "./pages/app/AppCartPage";
@@ -33,7 +34,8 @@ const App = () => (
           <Route path="/order-status" element={<OrderStatusPage />} />
           
           {/* App (Mobile) Routes */}
-          <Route path="/app" element={<AppHomePage />} />
+          <Route path="/app" element={<AppBrowsePage />} />
+          <Route path="/app/home" element={<AppHomePage />} />
           <Route path="/app/product" element={<AppProductPage />} />
           <Route path="/app/cart" element={<AppCartPage />} />
           <Route path="/app/confirmation" element={<AppConfirmationPage />} />
