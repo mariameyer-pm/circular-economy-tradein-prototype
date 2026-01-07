@@ -28,7 +28,7 @@ export default function ConfirmationPage() {
             <div className="flex items-center gap-3 mb-4">
               <Truck className="h-6 w-6 text-success" />
               <div>
-                <h2 className="font-display text-lg">Delivery Tomorrow</h2>
+                <h2 className="font-display text-lg">Delivery Date</h2>
                 <p className="text-sm text-muted-foreground">
                   Your new mattress will be delivered on:
                 </p>
@@ -67,6 +67,13 @@ export default function ConfirmationPage() {
             </div>
           </CardContent>
         </Card>
+
+        {/* Check Order Status Link */}
+        <div className="text-center mb-6">
+          <Link to="/order-status" className="text-primary hover:underline font-medium">
+            Check order status →
+          </Link>
+        </div>
 
         {/* Order Details */}
         <Card className="mb-6">
@@ -119,18 +126,13 @@ export default function ConfirmationPage() {
           </CardContent>
         </Card>
 
-        {/* Action Buttons */}
-        <div className="text-center space-y-4">
-          <Link to="/order-status" className="text-primary hover:underline font-medium">
-            Check order status →
+        {/* Action Button */}
+        <div className="text-center">
+          <Link to="/">
+            <Button variant="outline" size="lg">
+              Continue Shopping
+            </Button>
           </Link>
-          <div>
-            <Link to="/">
-              <Button variant="outline" size="lg">
-                Continue Shopping
-              </Button>
-            </Link>
-          </div>
         </div>
       </main>
     </div>
