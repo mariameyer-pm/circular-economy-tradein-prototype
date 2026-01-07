@@ -1,9 +1,10 @@
-import { Home, ShoppingCart, Package, User } from "lucide-react";
+import { Home, ShoppingCart, Package, User, LayoutGrid } from "lucide-react";
 import { Link, useLocation } from "react-router-dom";
 import { cn } from "@/lib/utils";
 
 const navItems = [
-  { icon: Home, label: "Home", path: "/app" },
+  { icon: LayoutGrid, label: "Browse", path: "/app" },
+  { icon: Home, label: "Home", path: "/app/home" },
   { icon: ShoppingCart, label: "Cart", path: "/app/cart" },
   { icon: Package, label: "Orders", path: "/app/orders" },
   { icon: User, label: "Account", path: "/app/account" },
