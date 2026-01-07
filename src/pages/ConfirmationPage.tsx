@@ -119,6 +119,17 @@ export default function ConfirmationPage() {
           </CardContent>
         </Card>
 
+        {/* Delivery Reminder */}
+        <div className="bg-primary/10 border border-primary/20 rounded-xl p-6 mb-8 text-center">
+          <div className="flex items-center justify-center gap-2 mb-2">
+            <Truck className="h-5 w-5 text-primary" />
+            <span className="font-display text-lg">Your order arrives tomorrow!</span>
+          </div>
+          <p className="text-sm text-muted-foreground">
+            Get ready for your best night's sleep. We'll send you a reminder before delivery.
+          </p>
+        </div>
+
         {/* Action Button */}
         <div className="text-center">
           <Link to="/">
