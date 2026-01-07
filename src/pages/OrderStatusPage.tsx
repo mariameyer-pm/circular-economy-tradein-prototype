@@ -24,8 +24,8 @@ export default function OrderStatusPage() {
                 <Package className="h-8 w-8 text-muted-foreground" />
               </div>
               <div>
-                <p className="font-display text-lg">CloudRest Premium Mattress</p>
-                <p className="text-muted-foreground">Queen Size</p>
+                <p className="font-display text-lg">Emma Original Mattress</p>
+                <p className="text-muted-foreground">140×200 cm</p>
               </div>
             </div>
             
