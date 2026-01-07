@@ -125,6 +125,7 @@ export function ProductCard({ compact = false }: ProductCardProps) {
                 <p className="text-sm text-muted-foreground mt-1">
                   We take your old mattress with us on delivery day. Door-to-door pickup, no transport required.
                 </p>
+                <a href="#" className="text-sm text-primary hover:underline mt-1 inline-block">Learn more about our recycling program →</a>
               </div>
             </div>
           </CardContent>
