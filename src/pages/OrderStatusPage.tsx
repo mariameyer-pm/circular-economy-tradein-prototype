@@ -17,6 +17,17 @@ export default function OrderStatusPage() {
               <Package className="h-7 w-7 text-foreground" />
               <h1 className="font-display text-2xl">Delivery Tomorrow</h1>
             </div>
+
+            {/* Product Info */}
+            <div className="flex items-center gap-4 mb-6 p-4 bg-secondary/50 rounded-lg">
+              <div className="w-20 h-20 bg-muted rounded-lg flex items-center justify-center flex-shrink-0">
+                <Package className="h-8 w-8 text-muted-foreground" />
+              </div>
+              <div>
+                <p className="font-display text-lg">CloudRest Premium Mattress</p>
+                <p className="text-muted-foreground">Queen Size</p>
+              </div>
+            </div>
             
             {/* Content */}
             <div className="space-y-4 text-lg">
@@ -41,7 +52,7 @@ export default function OrderStatusPage() {
             <div className="mt-8">
               <Link to="/confirmation">
                 <Button variant="outline" size="lg" className="w-full border-2 border-foreground hover:bg-secondary">
-                  View Order
+                  Back to Order Confirmation
                 </Button>
               </Link>
             </div>
