@@ -122,3 +122,10 @@
     @apply font-display;
   }
 }
+
+/* Safe area padding for mobile app */
+@layer utilities {
+  .pb-safe {
+    padding-bottom: env(safe-area-inset-bottom, 0);
+  }
+}
