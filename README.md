@@ -1,73 +1,47 @@
-# Welcome to your Lovable project
+# 📊 Circular Economy Prototyping Project (Educational Case Study)
 
-## Project info
+⚠️ **Disclaimer:** This repository contains a **purely hypothetical prototype** developed solely as an educational graduation project (Capstone) for my Product Management training at neuefische / SPICED. It is an independent academic case study and has **no official connection, endorsement, or affiliation** with any existing brands or commercial entities.
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+---
 
-## How can I edit this code?
+### 🎯 Project Purpose & PM Context
+I am a **Senior Strategic Project Leader and Product Manager** with over 11 years of experience steering high-scale e-commerce and data programs (including scaling data remediation across **~2M SKUs** and optimizing **Search & Discovery** architectures at Wayfair). 
 
-There are several ways of editing your application.
+While my core focus lies in technical product discovery, data governance, and cross-functional leadership, I utilize this GitHub space to:
+* **Bridge Strategy & Code:** Host functional prototypes that translate high-level product discovery tracks into tangible, interactive MVPs.
+* **Leverage AI Prototyping:** Explore the boundaries of rapid deployment utilizing modern AI development ecosystems like **Lovable**.
+* **Foster Engineering Empathy:** Maintain a hands-on understanding of the deployment lifecycles, version control, and development workflows used by the engineering squads I align with.
 
-**Use Lovable**
+---
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+### 💡 Core Features Implemented (Academic Scope)
+* **Streamlined Trade-In Journey:** Reducing operational friction in re-commerce supply chains by designing intuitive user-facing trade-in and recycling funnels.
+* **Data-Driven Mapping:** Dynamic product attribute definition and condition assessment logic.
+* **Agile Iteration:** Built utilizing rapid prototyping frameworks, structured via Scrum, and continuously validated within the bootcamp environment.
 
-Changes made via Lovable will be committed automatically to this repo.
+---
 
-**Use your preferred IDE**
+### 🛠️ Technologies & Tech Stack
+This project is built using modern front-end frameworks and component libraries:
+* **Framework:** React with TypeScript & Vite
+* **Styling & UI:** Tailwind CSS & shadcn/ui
+* **Environment:** Developed and version-controlled via the **Lovable AI** development ecosystem
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+---
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+### 💻 Local Development (For Engineers)
 
-Follow these steps:
+If you wish to clone this repository and run the environment locally, ensure you have Node.js & npm installed, then follow these steps:
 
 ```sh
-# Step 1: Clone the repository using the project's Git URL.
+# Step 1: Clone the repository
 git clone <YOUR_GIT_URL>
 
-# Step 2: Navigate to the project directory.
+# Step 2: Navigate to the project directory
 cd <YOUR_PROJECT_NAME>
 
-# Step 3: Install the necessary dependencies.
+# Step 3: Install dependencies
 npm i
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+# Step 4: Start the development server
 npm run dev
-```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
