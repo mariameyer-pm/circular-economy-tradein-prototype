@@ -11,8 +11,8 @@ This specific repository hosts the live frontend interaction layer of my academi
 * **Bridge Strategy & Code:** Translating high-level product discovery tracks into tangible, interactive MVPs.
 * **Rapid AI Prototyping:** Exploring modern deployment workflows using the **Lovable AI** development ecosystem.
 
-*Note: This repository is part of a 3-part connected series. You can find the corresponding **User Experience Case Study** here: [[LINK-ZU-REPO-2](https://github.com/mariameyer-pm/circular-economy-pm-case-study
-)] and the **Strategic Capstone Presentation Deck** here: [[LINK-ZU-REPO-3](https://github.com/mariameyer-pm/circular-economy-capstone-presentation)].*
+*Note: This repository is part of a 3-part connected series. You can find the corresponding **User Experience Case Study** here: [[LINK-REPO-2](https://github.com/mariameyer-pm/circular-economy-pm-case-study
+)] and the **Strategic Capstone Presentation Deck** here: [[LINK-REPO-3](https://github.com/mariameyer-pm/circular-economy-capstone-presentation)].*
 
 ---
 
